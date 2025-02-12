@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   app:
-    build: .  # This tells Docker to build from local Dockerfile
+    build: . 
     container_name: fastapi-app
     restart: always
     networks:
